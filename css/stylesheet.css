@@ -14,7 +14,7 @@ body {
     animation: animateMidE 30s linear infinite;
     -webkit-background-clip: text;
     color: rgba(225, 225, 225, .1);
-    margin-top: 5%;
+    margin-top: 2%;
     text-shadow: goldenrod;
 }
 
