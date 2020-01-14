@@ -1,5 +1,5 @@
 body {
-
+    height: max-content;
     background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +48,7 @@ body {
 
     max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 42%;
     color: gray;
 
