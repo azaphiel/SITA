@@ -1,0 +1,102 @@
+body {
+
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainText {
+
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    text-align: center;
+    background: url("../img/color3.jpg");
+    animation: animateMidE 30s linear infinite;
+    -webkit-background-clip: text;
+    color: rgba(225, 225, 225, .1);
+    margin-top: 5%;
+    text-shadow: goldenrod;
+}
+
+.callParcel {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.callParcel:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.allButtons {
+    margin-left: 25%;
+
+}
+
+.callDept {
+
+    max-width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 42%;
+    color: gray;
+
+}
+
+@keyframes animateMidE {
+    0% {
+        background-position: left 1000px top 1000px;
+    }
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-left: 15%;
+
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+    background-image: white;
+}
+
+th {
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: gray;
+}

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">h
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <h1 class="mainText">Parselling App</h1>
+    <table id="list"></table>
+    <br><br><br><br><br>
+    <div>
+        <table class="middleList">
+            <tr>
+              <th>Sender</th>
+              <th>From</th>
+              <th>Receipient</th>
+              <th>To</th>
+              <th>Weight</th>
+              <th>Value</th>
+              <th><b>DEPARTMENT</b></th>
+            </tr>
+            <tr>
+              <td><span id="sName">-</td>
+              <td><span id="sStreet">-</span><span id="sHouseNumber"></span><span id="sPostalCode"></span><span id="sCity"></span></td>
+              <td><span id="receipientName">-</span></td>
+              <td><span id="rStreet">-</span><span id="rHouseNumber"></span><span id="rPostalCode"></span><span id="rCity"></span></td>
+              <td><span id="weight">-</span></td>
+              <td><span id="value">-</span></td>
+               <td><span id="department">-</span></td>
+              
+            </tr>
+            
+          </table>
+        
+    </div>
+    <br />
+    <br><br><br>
+    <div class="allButtons">
+    <button class="callParcel" onclick="callAll()">1. Load & List XML</button>
+    <button class="callParcel" onclick="callParcel()">2. Parcel x1</button>
+    <button class="callParcel" onclick="callDept()">3. Call Department</button>
+    <button class="callParcel" onclick="addDept()">4. Add Department</button>
+    <button class="callParcel" onclick="remDept()">5. Remove Department</button>
+  </div>
+  
+<br><br><br>
+  <div class="callDept">
+    <span id="nameOfDep"></span><br>
+    <span id="listName"></span><br><span id="listFrom"></span><br><span id="listTo"></span><br>
+    <span id="listReceiver"></span><br><span id="listWeight"></span><br><span id="listValue"></span>
+   
+  </div>
+  
+  
+<footer><em> Parselling App by Özkan </em></footer>
+</body>
+
+</html>
