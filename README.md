@@ -1,4 +1,4 @@
-# SITA
+# SITA ASSIGNMENT
 Assignment has done as web application and written in pure frontend languages such HTML5, CSS and JavaScript.
 
 In order to access the app either you can go https://assignment-sita.netlify.com address via any browser. This is the easiest way to access the app because in local restrictions of xml file usage might be problem on using. In order to try on local you can use Safari browser. In order to overcome restriction you need to turn on develop menu and click on Disable File Restrictions and then index.html will execute correctly. 
